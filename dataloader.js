@@ -63,7 +63,8 @@ function loadGames(name, id){
 
                 var table = document.getElementById(id);
 
-                table.className = "tableStandings";
+                table.className = "";
+
 
 
                 var row1 = table.insertRow(-1);
@@ -74,6 +75,13 @@ function loadGames(name, id){
                 var cell4 = row1.insertCell(-1);
                 var cell5 = row1.insertCell(-1);
                 var cell6 = row1.insertCell(-1);
+
+                cell1.className = "tdSize";
+                cell2.className = "tdSize";
+                cell3.className = "tdSize";
+                cell4.className = "tdSize";
+                cell5.className = "tdSize";
+                cell6.className = "tdSize";
 
                 cell1.appendChild(img1);
                 cell2.innerHTML = "<center style='font-size:30px'>" + teamName1 + "<br>" + score1 + "</center>";

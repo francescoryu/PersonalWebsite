@@ -35,8 +35,8 @@ img.soccerIcon {
 }
 
 .logoScalingGames {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 td {
@@ -44,7 +44,7 @@ td {
 }
 
 .tdLeagueStandings td {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 table {
@@ -59,7 +59,9 @@ table {
   padding: 1000px;
 }
 
-
+.tdSize {
+  padding-left: 70px;
+}
 
 th {
   font-size: 35px;
@@ -72,7 +74,7 @@ th {
 }
 
 .thLeagueStandings th {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .paddingTable td {
