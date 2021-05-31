@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="master.css" type="text/css" rel="stylesheet">
+    <title>Latest Games</title>
+  </head>
+  <body>
+
+    <center><ul>
+      <div class="topnav">
+<div><a href="leagues/premier-league.html">Premier League</a></div>
+<div><a href="leagues/laliga.html">LaLiga</a></div>
+<div><a href="leagues/Bundesliga.html">Bundesliga</a></div>
+<div><a href="leagues/serie-a.html">Serie A</a></div>
+<div><a href="leagues/serie-a.html">Ligue 1</a></div>
+<div class="b"><a href="index.html">Home</a></div>
+</div>
+    </ul></center>
+    <h1>Premier League</h1>
+    <table class="tableStandings">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>Team 1</th>
+                <th>      </th>
+                <th>Team 2</th>
+                <th>      </th>
+                <th>Datum</th>
+            </tr>
+        </thead>
+        <tbody id="premierLeague">
+        </tbody>
+
+    </table>
+
+    <p></p>
+    <h1>LaLiga</h1>
+    <table class="tableStandings">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>Team 1</th>
+                <th>      </th>
+                <th>Team 2</th>
+                <th>      </th>
+                <th>      </th>
+            </tr>
+        </thead>
+        <tbody id="laLiga">
+        </tbody>
+    </table>
+
+    <p></p>
+    <h1>1.Bundesliga</h1>
+    <table class="tableStandings">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>Team 1</th>
+                <th>      </th>
+                <th>Team 2</th>
+                <th>      </th>
+                <th>      </th>
+            </tr>
+        </thead>
+        <tbody id="bundesLiga">
+        </tbody>
+    </table>
+
+    <p></p>
+    <h1>Ligue 1 Uber Eats</h1>
+    <table class="tableStandings">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>Team 1</th>
+                <th>      </th>
+                <th>Team 2</th>
+                <th>      </th>
+                <th>      </th>
+            </tr>
+        </thead>
+        <tbody id="ligue1">
+        </tbody>
+    </table>
+
+    <p></p>
+    <h1>Serie A</h1>
+    <table class="tableStandings">
+        <thead>
+            <tr>
+                <th>      </th>
+                <th>Team 1</th>
+                <th>      </th>
+                <th>Team 2</th>
+                <th>      </th>
+                <th>      </th>
+            </tr>
+        </thead>
+        <tbody id="serieA">
+        </tbody>
+    </table>
+  </body>
+
+  <script type="text/javascript" src="jquery-3.6.0.min.js">
+
+  </script>
+
+  <script type="text/javascript" src="dataloader.js">
+
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      loadGames("premier-league-9", "premierLeague");
+      loadGames("laliga-10", "laLiga");
+      loadGames("bundesliga-1", "bundesLiga");
+      loadGames("ligue-1-uber-eats-23", "ligue1");
+      loadGames("serie-a-13", "serieA");
+    });
+  </script>
+
+</html>

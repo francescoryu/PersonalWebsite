@@ -1,0 +1,227 @@
+body {
+  margin:0px;
+  background-color: skyblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, lightblue, #3399ff, #ccff99);*/
+  background-color: #8797ff;
+  /*box-shadow: 0px, 12px, 2px, 1px rgba(0, 0, 255, 0.2);*/
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+img.soccerIcon {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.gameTableBackground {
+  border-bottom: solid black;
+}
+
+.logoScalingLeague {
+  width: 30px;
+  height: 30px;
+}
+
+.logoScalingGames {
+  width: 100px;
+  height: 100px;
+}
+
+td {
+  font-size: 30px;
+}
+
+.tdLeagueStandings td {
+  font-size: 20px;
+}
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.tableLigaStandings {
+  padding: 1000px;
+}
+
+
+
+th {
+  font-size: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.tableStandings {
+
+}
+
+.thLeagueStandings th {
+  font-size: 20px;
+}
+
+.paddingTable td {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.indeximg {
+  display:flex;
+  flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+}
+
+tr:nth-child(2n+1) {
+  background-color: white;
+}
+
+tr:nth-child(2n+0) {
+  background-color: lightgrey;
+}
+
+th {
+  background-color: lightgrey;
+}
+
+.scoreCenter {
+  text-align: center;
+}
+
+
+
+.indeximg a {
+
+}
+
+thead tr {
+
+
+}
+
+tbody tr {
+  border-bottom: 1000px;
+  padding-left: 99%;
+}
+
+.topnav {
+  background-color: #7b0180; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #23deaf, #23c5de);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.layoutRight {
+  align-items: right;
+}
+
+div.b {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+
+#videosList {
+ max-width: 600px;
+  overflow: hidden;
+}
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+header {
+  background-image: linear-gradient(to right, white, #b3fcff);
+  background-color: #3f3f40;
+margin-top: 20px;
+margin-bottom: 20px;
+  font-size: 40px;
+  color: black;
+}
+
+tr p {
+  margin: 0;
+}
+
+.list:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.img {
+  margin:20px;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+div.picHomeBackIcon {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.pic:hover {
+  /*width: 26%;
+  height: 26%;*/
+  transition: all .3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.gif:hover {
+  transition: all .3s ease-in-out;
+  transform: scale(1.05);
+}

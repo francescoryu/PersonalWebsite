@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link href="../master.css" type="text/css" rel="stylesheet">
+
+    <title>Bundesliga</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div><a href="../index.html">Home</a></div>
+<div class="b"><a href="../games-summary.html">Latest Games</a></div>
+</div>
+
+    <center><table class="paddingTable thLeagueStandings tdLeagueStandings">
+        <thead>
+            <tr>
+                <th>Platz</th>
+                <th>Teamname</th>
+                <th>Punktestand</th>
+            </tr>
+        </thead>
+        <tbody id="tBody">
+        </tbody>
+    </table></center>
+  </body>
+  <script type="text/javascript" src="../jquery-3.6.0.min.js">
+
+  </script>
+
+  <script type="text/javascript" src="../dataloader.js">
+
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      loadTable("bundesliga-1");
+    });
+  </script>
+
+</html>
