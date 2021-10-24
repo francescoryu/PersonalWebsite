@@ -1,18 +1,68 @@
-body {
-  margin:0px;
-  background-color: skyblue;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   /*background-image: linear-gradient(to right, lightblue, #3399ff, #ccff99);*/
-  background-color: #8797ff;
   /*box-shadow: 0px, 12px, 2px, 1px rgba(0, 0, 255, 0.2);*/
+}
+
+
+
+li {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+  /*float: right;*/
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body.backgroundIndex {
+	background: linear-gradient(-45deg, #f200ff, #5aafb0, #bf00ff, #ffffff, #b300ff, #ffffff, #cb95e6, #ffffff, #0091ff, #ffffff,#86abf9, #b300ff);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 40s ease infinite;
+	-moz-animation: Gradient 40s ease infinite;
+	animation: Gradient 40s ease infinite;
+}
+
+
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+
+
+div.aboutMe {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+div.box {
+  background-color:#cccccc;
+  text-align:left;
+  vertical-align: middle;
+  padding:20px 47px;
 }
 
 img {
@@ -53,6 +103,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
 }
 
 .tableLigaStandings {
@@ -70,7 +121,7 @@ th {
 }
 
 .tableStandings {
-
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
 }
 
 .thLeagueStandings th {
@@ -80,6 +131,36 @@ th {
 .paddingTable td {
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 0.01%;
+
+}
+
+.infoRight {
+  background-color: #7b0180; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #23395d, #192841);
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+}
+
+.infoRight a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+div.welcome {
+  text-shadow: 2px 1px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  color: darkblue;
 }
 
 .indeximg {
@@ -87,6 +168,7 @@ th {
   flex-wrap: wrap;
 justify-content: center;
 text-align: center;
+margin-left: 100px;
 }
 
 tr:nth-child(2n+1) {
@@ -123,8 +205,10 @@ tbody tr {
 
 .topnav {
   background-color: #7b0180; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, #23deaf, #23c5de);
+  background-image: linear-gradient(to right, #23395d, #192841);
   overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+
 }
 
 /* Style the links inside the navigation bar */
@@ -139,6 +223,34 @@ tbody tr {
   font-size: 25px;
 }
 
+.topnav a:hover {
+  background-color: #92d5f0;
+  color: black;
+}
+
+.topnavAboutMe {
+  background-color: #7b0180; /* For browsers that do not support gradients */
+  background-image: linear-gradient(45deg, #0e35a1, #df8ff7);
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+}
+
+.topnavAboutMe a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnavAboutMe a:hover {
+  background-color: #92d5f0;
+  color: black;
+}
+
 .layoutRight {
   align-items: right;
 }
@@ -149,13 +261,13 @@ div.b {
   margin-right: 10px;
 }
 
-
+body.backgroundAboutMe {
+  background-image: url("aboutMeBackground.jpg");
+  background-size: 100% 100%;
+}
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
 
 /* Add a color to the active/current link */
 
@@ -168,6 +280,7 @@ div.b {
 .static {
   position:absolute;
   background: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
 }
 
 .static:hover {
@@ -215,6 +328,13 @@ div.picHomeBackIcon {
 }
 
 
+div.indexList {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+  float: right;
+}
+
 
 .pic:hover {
   /*width: 26%;
@@ -226,4 +346,5 @@ div.picHomeBackIcon {
 .gif:hover {
   transition: all .3s ease-in-out;
   transform: scale(1.05);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
 }

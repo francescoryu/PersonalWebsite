@@ -27,8 +27,6 @@ function loadTable(name){
                 cell1.innerHTML = i + 1;
                 cell2.appendChild(text);
                 cell3.innerHTML = punkte;
-
-
               }
             }
     });
