@@ -1,6 +1,6 @@
 function loadTable(name){
             $.ajax({
-              url:"https://eliaschenker.com/SoccerAPI/gettable.php?league=" + name,
+              url:"https://francescoryu.ch/SoccerAPI/gettable.php?league=" + name,
               success:function(result){
                 let data = result;
                 data = JSON.parse(data);
@@ -36,7 +36,7 @@ function loadTable(name){
 
 function loadGames(name, id){
             $.ajax({
-              url:"https://eliaschenker.com/SoccerAPI/getgames.php?league=" + name,
+              url:"https://francescoryu.ch/SoccerAPI/getgames.php?league=" + name,
               success:function(result){
                 let data = result;
                 data = JSON.parse(data);
