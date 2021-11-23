@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Index html" />
+    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Index html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +71,7 @@
       <workItem from="1624890127751" duration="2884000" />
       <workItem from="1626614885995" duration="23000" />
       <workItem from="1637241687696" duration="646000" />
+      <workItem from="1637675164902" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1622472247615</created>
@@ -121,6 +126,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Index html" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="629" y="306" key="Github.ShareDialog" timestamp="1637675208621">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="629" y="306" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1637675208621" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637241736293">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
