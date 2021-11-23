@@ -204,7 +204,7 @@ tbody tr {
 }
 
 .topnav {
-  background-color: #7b0180; /* For browsers that do not support gradients */
+  /*background-color: #3b3b3b;*/
   background-image: linear-gradient(to right, #23395d, #192841);
   overflow: hidden;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
@@ -263,7 +263,7 @@ div.b {
 }
 
 body.backgroundAboutMe {
-  background-image: url("aboutMeBackground.jpg");
+  background-image: url("../aboutMeBackground.jpg");
   background-size: 100% 100%;
 }
 

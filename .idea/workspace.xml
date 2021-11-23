@@ -12,7 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Index html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leagues/bundesliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/bundesliga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leagues/laliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/laliga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leagues/ligue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/ligue1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leagues/premier-league.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/premier-league.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leagues/serie-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/serie-a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soccer-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/soccer-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/todo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +66,25 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Francesco Ryu\OneDrive - Bildungszentrum Zürichsee\Personal Website\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Francesco Ryu\OneDrive - Bildungszentrum Zürichsee\S4f Project" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +98,8 @@
       <workItem from="1624890127751" duration="2884000" />
       <workItem from="1626614885995" duration="23000" />
       <workItem from="1637241687696" duration="646000" />
-      <workItem from="1637675164902" duration="974000" />
+      <workItem from="1637675164902" duration="1571000" />
+      <workItem from="1637699003780" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1622472247615</created>
@@ -101,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637241711187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Index html">
+      <created>1637676158637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637676158637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,9 +165,13 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="629" y="306" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1637675208621" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637241736293">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637676163547">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1637241736293" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1637676163547" />
+    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637677753516">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1637677753516" />
   </component>
 </project>
