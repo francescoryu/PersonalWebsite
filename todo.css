@@ -1,0 +1,17 @@
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+button {
+height: 80px;
+width: 150px;
+font-size: 25px;
+background-color: grey;
+color: white;
+}
+
+button:hover {
+color: black;
+background: white;
+}

@@ -1,0 +1,25 @@
+
+
+html {
+  background-color: white;
+}
+
+button {
+height: 100px;
+width: 180px;
+font-size: 25px;
+background-color: grey;
+color: white;
+align-content: center;
+}
+
+button:hover {
+color: black;
+background: #dcdee3;
+cursor:pointer;
+}
+
+header {
+  font-size: 50px;
+  color: black;
+}
