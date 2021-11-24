@@ -10,20 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Index html">
+    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="23.11.2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/todo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/bundesliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/bundesliga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/laliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/laliga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/ligue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/ligue1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/premier-league.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/premier-league.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/serie-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/serie-a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soccer-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/soccer-tracker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/todo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,19 +66,6 @@
       <recent name="C:\Users\Francesco Ryu\OneDrive - Bildungszentrum Zürichsee\S4f Project" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +79,8 @@
       <workItem from="1626614885995" duration="23000" />
       <workItem from="1637241687696" duration="646000" />
       <workItem from="1637675164902" duration="1571000" />
-      <workItem from="1637699003780" duration="1067000" />
+      <workItem from="1637699003780" duration="3477000" />
+      <workItem from="1637738469278" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1622472247615</created>
@@ -136,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637676158637</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="23.11.2021">
+      <created>1637700097852</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637700097852</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,17 +146,18 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Index Completed" />
     <MESSAGE value="Index html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index html" />
+    <MESSAGE value="23.11.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.11.2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="306" key="Github.ShareDialog" timestamp="1637675208621">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="629" y="306" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1637675208621" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637676163547">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637700101826">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1637676163547" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1637700101826" />
     <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637677753516">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

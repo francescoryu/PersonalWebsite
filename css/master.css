@@ -1,131 +1,150 @@
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  /*background-image: linear-gradient(to right, lightblue, #3399ff, #ccff99);*/
-  /*box-shadow: 0px, 12px, 2px, 1px rgba(0, 0, 255, 0.2);*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-image: linear-gradient(to right, lightblue, #3399ff, #ccff99);*/
+    /*box-shadow: 0px, 12px, 2px, 1px rgba(0, 0, 255, 0.2);*/
 }
-
 
 
 li {
-  margin-top: 20px;
-  margin-right: 20px;
-  font-size: 25px;
-  /*float: right;*/
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    /*float: right;*/
 }
 
 html, body {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: Roboto;
 }
 
 body.backgroundIndex {
-	background: linear-gradient(-45deg, #f200ff, #5aafb0, #bf00ff, #ffffff, #b300ff, #ffffff, #cb95e6, #ffffff, #0091ff, #ffffff,#86abf9, #b300ff);
-	background-size: 600% 600%;
-	-webkit-animation: Gradient 40s ease infinite;
-	-moz-animation: Gradient 40s ease infinite;
-	animation: Gradient 40s ease infinite;
+    background: linear-gradient(-45deg, #6a00a8, #550087, #3f0063, #27003d, #14001f);
+    background-size: 600% 600%;
+    -webkit-animation: Gradient 40s ease infinite;
+    -moz-animation: Gradient 40s ease infinite;
+    animation: Gradient 40s ease infinite;
 }
 
 
-    @-webkit-keyframes Gradient {
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
-	@-moz-keyframes Gradient {
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
-	@keyframes Gradient {
-		0%{background-position:0% 50%}
-		50%{background-position:100% 50%}
-		100%{background-position:0% 50%}
-	}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
 
 
 div.aboutMe {
-  text-align: left;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-family: Roboto;
-  font-size: 25px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-size: 25px;
 }
 
 div.box {
-  background-color:#cccccc;
-  text-align:left;
-  vertical-align: middle;
-  padding:20px 47px;
+    background-color: #cccccc;
+    text-align: left;
+    vertical-align: middle;
+    padding: 20px 47px;
 }
 
 img {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 img.soccerIcon {
-  padding-left: 0px;
-  padding-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 .gameTableBackground {
-  border-bottom: solid black;
+    border-bottom: solid black;
 }
 
 .logoScalingLeague {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .logoScalingGames {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 td {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .tdLeagueStandings td {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 table {
-  border-spacing: 0px;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
 }
 
 .tableLigaStandings {
-  padding: 1000px;
+    padding: 1000px;
 }
 
 .tdSize {
-  padding-left: 70px;
+    padding-left: 70px;
 }
 
 th {
-  font-size: 35px;
-  padding-left: 40px;
-  padding-right: 40px;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .tableStandings {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
 }
 
 .thLeagueStandings th {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .paddingTable td {
@@ -136,57 +155,56 @@ th {
 }
 
 .infoRight {
-  background-color: #7b0180; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #23395d, #192841);
-  overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    background-color: #7b0180; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #23395d, #192841);
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
 }
 
 .infoRight a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 30px 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 25px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 
 div.welcome {
-  text-shadow: 2px 1px;
-  margin-top: 20px;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 60px;
-  color: darkblue;
+    text-shadow: 2px 1px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    color: darkblue;
 }
 
 .indeximg {
-  display:flex;
-  flex-wrap: wrap;
-justify-content: center;
-text-align: center;
-margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
 }
 
 tr:nth-child(2n+1) {
-  background-color: white;
+    background-color: white;
 }
 
 tr:nth-child(2n+0) {
-  background-color: lightgrey;
+    background-color: lightgrey;
 }
 
 th {
-  background-color: lightgrey;
+    background-color: lightgrey;
 }
 
 .scoreCenter {
-  text-align: center;
+    text-align: center;
 }
-
 
 
 .indeximg a {
@@ -199,72 +217,76 @@ thead tr {
 }
 
 tbody tr {
-  border-bottom: 1000px;
-  padding-left: 99%;
+    border-bottom: 1000px;
+    padding-left: 99%;
 }
 
 .topnav {
-  /*background-color: #3b3b3b;*/
-  background-image: linear-gradient(to right, #23395d, #192841);
-  overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    /*background-color: #3b3b3b;*/
+    background-image: linear-gradient(to right, #320052, #1e0030);
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 100);
 
+}
+
+a.backToIndex {
+    padding-right: 0px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 30px 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 25px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 
 .topnav a:hover {
-  background-color: #92d5f0;
-  color: black;
+    background-color: #4d007a;
+    color: whitesmoke;
 }
 
 .topnavAboutMe {
-  background-color: #7b0180; /* For browsers that do not support gradients */
-  background-image: linear-gradient(45deg, #0e35a1, #df8ff7);
-  overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    background-color: #7b0180; /* For browsers that do not support gradients */
+    background-image: linear-gradient(45deg, #0e35a1, #df8ff7);
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
 }
 
 .topnavAboutMe a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 30px 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 25px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .topnavAboutMe a:hover {
-  background-color: #92d5f0;
-  color: black;
+    background-color: #92d5f0;
+    color: black;
 }
 
 .layoutRight {
-  align-items: right;
+    align-items: right;
 }
 
 div.b {
-  position: absolute;
-  right: 0;
-  margin-right: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
 }
 
 body.backgroundAboutMe {
-  background-image: url("../aboutMeBackground.jpg");
-  background-size: 100% 100%;
+    background-image: url("../aboutMeBackground.jpg");
+    background-size: 100% 100%;
 }
 
 /* Change the color of links on hover */
@@ -274,78 +296,99 @@ body.backgroundAboutMe {
 
 
 #videosList {
- max-width: 600px;
-  overflow: hidden;
+    max-width: 600px;
+    overflow: hidden;
 }
 
 .static {
-  position:absolute;
-  background: white;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    position: absolute;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
 }
 
 .static:hover {
-  opacity:0;
+    opacity: 0;
 }
 
 /* Hide Play button + controls on iOS */
 video::-webkit-media-controls {
-    display:none !important;
+    display: none !important;
 }
 
 header {
-  background-image: linear-gradient(to right, white, #b3fcff);
-  background-color: #3f3f40;
-margin-top: 20px;
-margin-bottom: 20px;
-  font-size: 40px;
-  color: black;
+    background-image: linear-gradient(to right, white, #b3fcff);
+    background-color: #3f3f40;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
 }
 
 tr p {
-  margin: 0;
+    margin: 0;
 }
 
 .list:hover {
-  transition: all .2s ease-in-out;
-  transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .img {
-  margin:20px;
-  width: 350px;
-  height: 200px;
-  border-radius: 15px;
+    margin: 20px;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
 }
 
+
 h1 {
-  font-size: 40px;
-  margin-left: 20px;
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 div.picHomeBackIcon {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 
 div.indexList {
-  margin-top: 20px;
-  margin-right: 20px;
-  font-size: 25px;
-  float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    float: right;
 }
 
 
 .pic:hover {
-  /*width: 26%;
-  height: 26%;*/
-  transition: all .3s ease-in-out;
-  transform: scale(1.05);
+    /*width: 26%;
+    height: 26%;*/
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
 }
 
 .gif:hover {
-  transition: all .3s ease-in-out;
-  transform: scale(1.05);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
+}
+
+button.backToIndex {
+    height: 80px;
+    width: 150px;
+    font-size: 25px;
+    background-color: #1e0030;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+button:hover.backToIndex {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+div.btnBackToIndex {
+
 }
