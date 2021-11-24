@@ -15,58 +15,10 @@ li {
     /*float: right;*/
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
-}
-
-body.backgroundIndex {
-    background: linear-gradient(-45deg, #6a00a8, #550087, #3f0063, #27003d, #14001f);
-    background-size: 600% 600%;
-    -webkit-animation: Gradient 40s ease infinite;
-    -moz-animation: Gradient 40s ease infinite;
-    animation: Gradient 40s ease infinite;
-}
 
 
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
 
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
 
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
 
 
 div.aboutMe {
@@ -113,7 +65,8 @@ td {
 }
 
 .tdLeagueStandings td {
-    font-size: 22px;
+    font-size: 20px;
+    height: 90%;
 }
 
 table {
@@ -123,6 +76,7 @@ table {
     margin-right: auto;
     margin-bottom: 100px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .8);
+    height: 90%;
 }
 
 .tableLigaStandings {
@@ -130,7 +84,7 @@ table {
 }
 
 .tdSize {
-    padding-left: 70px;
+
 }
 
 th {
@@ -187,6 +141,7 @@ div.welcome {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+
 }
 
 tr:nth-child(2n+1) {
@@ -199,6 +154,7 @@ tr:nth-child(2n+0) {
 
 tr {
     color: #b0b0b0;
+    height: 10px;
 }
 
 th {
@@ -224,9 +180,12 @@ tbody tr {
     padding-left: 99%;
 }
 
+tbody {
+
+}
+
 .topnav {
-    /*background-color: #3b3b3b;*/
-    background-image: linear-gradient(to right, #320052, #1e0030);
+    background-color: #320052;
     overflow: hidden;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 100);
     border: 2px solid #2d2d2d;
@@ -242,14 +201,14 @@ a.backToIndex {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 30px 70px;
+    padding: 20px 70px;
     text-decoration: none;
     font-size: 25px;
 }
 
 
 .topnav a:hover {
-    background-color: #4d007a;
+    background-color: #7f5791;
     color: whitesmoke;
 }
 
@@ -380,19 +339,61 @@ button.backToIndex {
     height: 80px;
     width: 150px;
     font-size: 25px;
-    background-color: #58008d;
-    color: white;
     border-radius: 5px;
-    border: 2px solid black;
-    margin-left: 45%;
+    border: 3px solid black;
+    margin: 0% 45%;
+    color: whitesmoke;
+    background-color: #480672;
+
 }
 
 button:hover.backToIndex {
-    color: whitesmoke;
-    background: #8100d9;
+    background: #7f5791;
     cursor: pointer;
 }
 
 div.btnBackToIndex {
 
+}
+
+html {
+    height:100%;
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.bg {
+    animation:slide 4s ease-in-out infinite alternate;
+    background-image: linear-gradient(-62deg, #200038 50%, #470461 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+
+.bg3 {
+    animation-duration:5s;
+}
+
+
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% {
+        transform:translateX(25%);
+    }
 }
