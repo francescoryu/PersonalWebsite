@@ -13,7 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Test push for host">
+    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="some php changes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoccerAPI/gettable.php" beforeDir="false" afterPath="$PROJECT_DIR$/SoccerAPI/gettable.php" afterDir="false" />
     </list>
@@ -52,18 +53,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Francesco Ryu\OneDrive - Bildungszentrum Zürichsee\Personal Website\css" />
@@ -73,6 +68,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\franc\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="" />
@@ -92,7 +90,8 @@
       <workItem from="1654710166103" duration="2000" />
       <workItem from="1661363261960" duration="29000" />
       <workItem from="1661363303495" duration="295000" />
-      <workItem from="1661363615517" duration="1167000" />
+      <workItem from="1661363615517" duration="1368000" />
+      <workItem from="1661365123839" duration="159000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1622472247615</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652371585999</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="some php changes">
+      <created>1661364978569</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661364978569</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +181,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/S4f-Project" />
+    </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Index Completed" />
     <MESSAGE value="Index html" />
@@ -182,6 +191,7 @@
     <MESSAGE value="24.11.2021" />
     <MESSAGE value="24.11.2021 09:54" />
     <MESSAGE value="Test push for host" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test push for host" />
+    <MESSAGE value="some php changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some php changes" />
   </component>
 </project>
