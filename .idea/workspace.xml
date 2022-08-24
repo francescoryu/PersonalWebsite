@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,19 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="24.11.2021 09:54">
+    <list default="true" id="c21dfdb6-71b4-47f9-96b8-9450e9312e33" name="Default Changelist" comment="Test push for host">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/todo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/bundesliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/bundesliga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/laliga.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/laliga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/ligue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/ligue1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/premier-league.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/premier-league.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leagues/serie-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/leagues/serie-a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soccer-tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/soccer-tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoccerAPI/gettable.php" beforeDir="false" afterPath="$PROJECT_DIR$/SoccerAPI/gettable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,10 +54,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,6 +88,11 @@
       <workItem from="1637699003780" duration="3477000" />
       <workItem from="1637738469278" duration="9775000" />
       <workItem from="1637756977402" duration="5703000" />
+      <workItem from="1652371519524" duration="668000" />
+      <workItem from="1654710166103" duration="2000" />
+      <workItem from="1661363261960" duration="29000" />
+      <workItem from="1661363303495" duration="295000" />
+      <workItem from="1661363615517" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1622472247615</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637744060739</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test push for host">
+      <created>1652371585999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652371585999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +173,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -169,20 +181,7 @@
     <MESSAGE value="23.11.2021" />
     <MESSAGE value="24.11.2021" />
     <MESSAGE value="24.11.2021 09:54" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.11.2021 09:54" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="629" y="306" key="Github.ShareDialog" timestamp="1637675208621">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="629" y="306" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1637675208621" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1637744063368">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1637744063368" />
-    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637677753516">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="586" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1637677753516" />
+    <MESSAGE value="Test push for host" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test push for host" />
   </component>
 </project>
