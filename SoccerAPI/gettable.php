@@ -21,7 +21,7 @@
         
         foreach($html->find(".standings__row--link") as $element) {
             $teamName = $element->find(".standings__team-name")[0]->innerText();
-            $teamLogoUrl = $element->find(".of-image__picture")[0]->src;
+            $teamLogoUrl = $element->find(".of-image__img")[0]->src;
             $teamPoints = $element->find(".standings__cell")[7]->find("span")[0]->innerText();
             $tempteam = new Team($teamLogoUrl, $teamName, $teamPoints);
             array_push($result, $tempteam);
